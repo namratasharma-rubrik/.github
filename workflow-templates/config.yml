@@ -1,9 +1,9 @@
 name: Trufflehog Secrets Scan
 on:
   pull_request:
-	branches: [$default-branch]
+    branches: [ $default-branch ]
   push:
-	branches: [$default-branch]
+    branches: [ $default-branch ]
 jobs:
   TruffleHog:
     runs-on: ubuntu-latest
